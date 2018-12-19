@@ -1,2 +1,29 @@
 
-.bg
+.background-color {
+	background-color: #FFFCB7;
+	margin-top: 20px;
+  	margin-bottom: 20px;
+  	margin-right: 20px;
+  	margin-left: 20px;
+  	border: 1px;
+  	outline: 1px;
+  	outline-offset: 15px;
+}
+
+
+.LOGO {
+	float:left;
+	width:15%;
+	height:150px;
+}
+
+.nav_container {
+	margin-top: 100px;
+	float:right;
+	width:85%;
+}
+
+nav-log-section:after {
+  display: table;
+  clear: both;
+}
