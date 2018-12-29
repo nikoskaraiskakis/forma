@@ -65,5 +65,98 @@
   color: white;
 }   
 
+/*MID-SECTION*/
+
+.mid-section div.login-box {
+  margin-left: 5%;
+  height: 500px;
+  width: 40%;
+  float: left;
+  border-radius: 25pt;
+  background-color: lightgreen;
+}
+
+.mid-section div.login-box div.login-header {
+  background-color: lightgrey;
+  text-align: center;
+  height : 50px;
+  border-top-right-radius: 25pt;
+  border-top-left-radius: 25pt;
+  font-size: 20pt;
+}
+
+.mid-section div.login-box div.login-subbox {
+  width: 80%;
+  margin-left: 10%;
+  margin-top : 1.25%;
+  height: 80%;
+}
+
+.mid-section div.login-box div.login-subbox div.user {
+  margin-top: 20%;
+  float: left;
+  width: 40%;
+  height: 15%;
+}
+
+.mid-section div.login-box div.login-subbox div.user input.user-input {
+}
+
+.mid-section div.login-box div.login-subbox div.pass {
+  float: left;
+  width: 40%;
+  height: 50%;
+  margin-right: 50%;
+}
+
+.mid-section div.login-box div.login-subbox div.pass input.pass-input {
+}
+
+
+.mid-section div.login-box div.login-subbox div.button{
+  float:right;
+  width: 50%;
+  height: 10%;
+  margin-top: 35%;
+} 
+
+.mid-section div.signup-box {
+  margin-right: 5%;
+  height: 500px;
+  width: 40%;
+  float: right;
+  border-radius: 25pt;
+  background-color: lightgreen;
+}
+
+.mid-section div.signup-box div.signup-header {
+  background-color: lightgrey;
+  text-align: center;
+  height : 50px;
+  border-top-right-radius: 25pt;
+  border-top-left-radius: 25pt;
+  font-size: 20pt;
+}
+
+.mid-section div.signup-box div.signup-role {
+  float: left;
+  width: 50%;
+  height: 90%;
+  outline-style: solid;
+}
+
+.mid-section div.signup-box div.signup-button {
+  float: right;
+  width: 50%;
+  height: 90%;
+}
+
+
+
+
+
+
+
+
 
 
