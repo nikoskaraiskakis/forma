@@ -11,22 +11,22 @@
 
 		<section class= "top-section" >
 
-			<a href="index.html">
+			<a href="index.php">
 				<img src="../images/eudoxus-logo.png" alt="LOGO" class="LOGO">
 			</a>
 				
 			<div class="topnav">
 				<input type="text" placeholder="Search.." class="search">
-				<a href="Login.html">ΣΥΝΔΕΣΗ/ΕΓΓΡΑΦΗ</a>
-				<a href="Comm.html">ΕΠΙΚΟΙΝΩΝΙΑ</a>
-				<a href="Ann.html">ΑΝΑΚΟΙΝΩΣΕΙΣ</a>
-				<a href="FAQ.html">FAQ</a>
-				<a class="active" href="index.html">ΑΡΧΙΚΗ</a>
+				<a href="Login.php">ΣΥΝΔΕΣΗ/ΕΓΓΡΑΦΗ</a>
+				<a href="Comm.php">ΕΠΙΚΟΙΝΩΝΙΑ</a>
+				<a href="Ann.php">ΑΝΑΚΟΙΝΩΣΕΙΣ</a>
+				<a href="FAQ.php">FAQ</a>
+				<a class="active" href="index.php">ΑΡΧΙΚΗ</a>
 			</div>
 			
 			<div class="top-header">
 				<h1>
-					<a href="index.html" style="color: black;background-color:lightgray;border-radius:5pt;font-size: 30pt;">ΑΡΧΙΚΗ ΣΕΛΙΔΑ</a>
+					<a href="index.php" style="color: black;background-color:lightgray;border-radius:5pt;font-size: 30pt;">ΑΡΧΙΚΗ ΣΕΛΙΔΑ</a>
 				</h1>
 			</div>
 	
@@ -41,14 +41,14 @@
 				<div class="sub-box" style="border-left-color: black">
 					<h1 class="subbox-header">
 						<button>
-							<a href="index.html" style="color: black">
+							<a href="index.php" style="color: black">
 								ΦΟΙΤΗΤΕΣ
 							</a>
 						</button>
 					</h1>
 					<div class="apps">
 						<ul>
-							<button onclick="window.location.href='FAQ.html'">ΔΗΛΩΣΗ ΣΥΓΓΡΑΜΜΑΤΩΝ</button>
+							<button onclick="window.location.href='FAQ.php'">ΔΗΛΩΣΗ ΣΥΓΓΡΑΜΜΑΤΩΝ</button>
 							<button>ΑΝΤΑΛΛΑΓΗ ΣΥΓΓΡΑΜΜΑΤΩΝ</button>
 						</ul>
 					</div>
@@ -56,7 +56,7 @@
 				<div class="sub-box">
 					<h1 class="subbox-header">
 						<button>
-							<a href="index.html" style="color: black">
+							<a href="index." style="color: black">
 								ΕΚΔΟΤΕΣ
 							</a>
 						</button>
@@ -72,7 +72,7 @@
 				<div class="sub-box">
 					<h1 class="subbox-header">
 						<button>
-							<a href="index.html" style="color: black">
+							<a href="index." style="color: black">
 								ΓΡΑΜΜΑΤΕΙΑ
 							</a>
 						</button>
@@ -86,7 +86,7 @@
 				<div class="sub-box">
 					<h1 class="subbox-header">
 						<button>
-							<a href="index.html" style="color: black">
+							<a href="index." style="color: black">
 								ΔΙΑΘΕΤΕΣ ΣΥΓΓΡΑΜΜΑΤΩΝ
 							</a>
 						</button>
@@ -100,7 +100,7 @@
 				<div class="sub-box">
 					<h1 class="subbox-header">
 						<button>
-							<a href="index.html" style="color: black">
+							<a href="index." style="color: black">
 								ΣΗΜΕΙΑ ΔΙΑΝΟΜΗΣ
 							</a>
 						</button>

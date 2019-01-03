@@ -9,22 +9,22 @@
 
 		<section class= "top-section" >
 
-			<a href="index.html">
+			<a href="index.php">
 				<img src="../images/eudoxus-logo.png" alt="LOGO" class="LOGO">
 			</a>
 				
 			<div class="topnav">
 			  	<input type="text" placeholder="Search.." class="search">
-				<a href="Login.html">ΣΥΝΔΕΣΗ/ΕΓΓΡΑΦΗ</a>
-				<a class="active" href="Comm.html">ΕΠΙΚΟΙΝΩΝΙΑ</a>
-				<a href="Ann.html">ΑΝΑΚΟΙΝΩΣΕΙΣ</a>
-				<a href="FAQ.html">FAQ</a>
-				<a href="index.html">ΑΡΧΙΚΗ</a>
+				<a href="Login.php">ΣΥΝΔΕΣΗ/ΕΓΓΡΑΦΗ</a>
+				<a class="active" href="Comm.php">ΕΠΙΚΟΙΝΩΝΙΑ</a>
+				<a href="Ann.php">ΑΝΑΚΟΙΝΩΣΕΙΣ</a>
+				<a href="FAQ.php">FAQ</a>
+				<a href="index.php">ΑΡΧΙΚΗ</a>
 			</div>
 			
 			<div class="top-header">
 				<h1>
-					<a href="Comm.html" style="color: black;background-color:lightgray;border-radius:5pt;font-size: 30pt;">ΕΠΙΚΟΙΝΩΝΙΑ</a>
+					<a href="Comm.php" style="color: black;background-color:lightgray;border-radius:5pt;font-size: 30pt;">ΕΠΙΚΟΙΝΩΝΙΑ</a>
 				</h1>
 			</div>
 	
@@ -47,7 +47,7 @@
 					<b>ΥΠΟΒΟΛΗ ΕΡΩΤΗΜΑΤΟΣ</b>
 				</div>
 				<div class="button">
-					<button style="font-size: 18pt;" onclick="window.location.href='index.html'">
+					<button style="font-size: 18pt;" onclick="window.location.href='index.php'">
 						<b>ΥΠΟΒΟΛΗ</b>
 					</button>
 				</div>

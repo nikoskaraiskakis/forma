@@ -9,22 +9,22 @@
 
 		<section class= "top-section">
 
-			<a href="index.html">
+			<a href="index.php">
 				<img src="../images/eudoxus-logo.png" alt="LOGO" class="LOGO">
 			</a>
 				
 			<div class="topnav">
 			  	<input type="text" placeholder="Search.." class="search">
-				<a href="Login.html">ΣΥΝΔΕΣΗ/ΕΓΓΡΑΦΗ</a>
-				<a href="Comm.html">ΕΠΙΚΟΙΝΩΝΙΑ</a>
-				<a href="Ann.html">ΑΝΑΚΟΙΝΩΣΕΙΣ</a>
-				<a class="active" href="FAQ.html">FAQ</a>
-				<a href="index.html">ΑΡΧΙΚΗ</a>
+				<a href="Login.php">ΣΥΝΔΕΣΗ/ΕΓΓΡΑΦΗ</a>
+				<a href="Comm.php">ΕΠΙΚΟΙΝΩΝΙΑ</a>
+				<a href="Ann.php">ΑΝΑΚΟΙΝΩΣΕΙΣ</a>
+				<a class="active" href="FAQ.php">FAQ</a>
+				<a href="index.php">ΑΡΧΙΚΗ</a>
 			</div>
 			
 			<div class="top-header">
 				<h1>
-					<a href="FAQ.html" style="color: black;background-color:lightgray;border-radius:5pt;font-size: 30pt;">FAQ</a>
+					<a href="FAQ.php" style="color: black;background-color:lightgray;border-radius:5pt;font-size: 30pt;">FAQ</a>
 				</h1>
 			</div>
 	

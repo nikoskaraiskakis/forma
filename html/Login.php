@@ -9,22 +9,22 @@
 
 		<section class= "top-section" >
 
-			<a href="index.html">
+			<a href="index.php">
 				<img src="../images/eudoxus-logo.png" alt="LOGO" class="LOGO">
 			</a>
 				
 			<div class="topnav">
 			  	<input type="text" placeholder="Search.." class="search">
-				<a class="active" href="Login.html">ΣΥΝΔΕΣΗ/ΕΓΓΡΑΦΗ</a>
-				<a href="Comm.html">ΕΠΙΚΟΙΝΩΝΙΑ</a>
-				<a href="Ann.html">ΑΝΑΚΟΙΝΩΣΕΙΣ</a>
-				<a href="FAQ.html">FAQ</a>
-				<a href="index.html">ΑΡΧΙΚΗ</a>
+				<a class="active" href="Login.php">ΣΥΝΔΕΣΗ/ΕΓΓΡΑΦΗ</a>
+				<a href="Comm.php">ΕΠΙΚΟΙΝΩΝΙΑ</a>
+				<a href="Ann.php">ΑΝΑΚΟΙΝΩΣΕΙΣ</a>
+				<a href="FAQ.php">FAQ</a>
+				<a href="index.php">ΑΡΧΙΚΗ</a>
 			</div>
 			
 			<div class="top-header">
 				<h1>
-					<a href="Login.html" style="color: black;background-color:lightgray;border-radius:5pt;font-size: 30pt;">ΣΥΝΔΕΣΗ/ΕΓΓΡΑΦΗ</a>
+					<a href="Login.php" style="color: black;background-color:lightgray;border-radius:5pt;font-size: 30pt;">ΣΥΝΔΕΣΗ/ΕΓΓΡΑΦΗ</a>
 				</h1>
 			</div>
 	
@@ -37,7 +37,7 @@
 				</div>
 				<div class="login-subbox">
 					<div class="button">
-						<button style="font-size: 18pt;" onclick="window.location.href='index.html'">
+						<button style="font-size: 18pt;" onclick="window.location.href='index.php'">
 							ΣΥΝΔΕΣΗ
 						</button>
 					</div>
