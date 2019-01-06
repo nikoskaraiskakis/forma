@@ -1,5 +1,11 @@
 
+ <?php 
+	session_start();
+	if(empty($_SESSION['logged'])){
+		$_SESSION['logged']=false;
+	}
 
+?>
 <!doctype html>
 <html lang="el">
 	<head>
@@ -9,7 +15,7 @@
 
 	<body class="background-color">
 
-		<section class= "top-section" >
+		<section class= "top-section"  style="outline-style: solid;">
 
 			<a href="index.php">
 				<img src="../images/eudoxus-logo.png" alt="LOGO" class="LOGO">
@@ -17,7 +23,19 @@
 				
 			<div class="topnav">
 				<input type="text" placeholder="Search.." class="search">
-				<a href="Login.php">ΣΥΝΔΕΣΗ/ΕΓΓΡΑΦΗ</a>
+				<a class='active'>
+				  <?php 
+				  if($_SESSION['logged']==true)
+				    { 
+				      echo $_SESSION['login_user'];
+				      echo '<a href="logout.php"><span>Logout</span></a></li>';
+				    }
+				  elseif($_SESSION['logged']==false)
+				    {
+				      echo '<a href="Login.php"><span>Login/Register</span></a></li>';
+				    }
+				  ?>
+				 </a>
 				<a href="Comm.php">ΕΠΙΚΟΙΝΩΝΙΑ</a>
 				<a href="Ann.php">ΑΝΑΚΟΙΝΩΣΕΙΣ</a>
 				<a href="FAQ.php">FAQ</a>
@@ -29,10 +47,9 @@
 					<a href="index.php" style="color: black;background-color:lightgray;border-radius:5pt;font-size: 30pt;">ΑΡΧΙΚΗ ΣΕΛΙΔΑ</a>
 				</h1>
 			</div>
-	
 		</section>
 
-		<section class="mid-section">
+		<section class="mid-section" style="outline-style: solid;">
 			
 			<div class="app-box" >
 				<h1 class="box-header">
