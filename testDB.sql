@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jan 03, 2019 at 08:32 PM
+-- Generation Time: Jan 06, 2019 at 07:20 PM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 7.3.0
 
@@ -19,60 +19,41 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `testDB`
+-- Database: `test`
 --
+
+DELIMITER $$
+--
+-- Procedures
+--
+CREATE DEFINER=`` PROCEDURE `AddGeometryColumn` (`catalog` VARCHAR(64), `t_schema` VARCHAR(64), `t_name` VARCHAR(64), `geometry_column` VARCHAR(64), `t_srid` INT)  begin
+  set @qwe= concat('ALTER TABLE ', t_schema, '.', t_name, ' ADD ', geometry_column,' GEOMETRY REF_SYSTEM_ID=', t_srid); PREPARE ls from @qwe; execute ls; deallocate prepare ls; end$$
+
+CREATE DEFINER=`` PROCEDURE `DropGeometryColumn` (`catalog` VARCHAR(64), `t_schema` VARCHAR(64), `t_name` VARCHAR(64), `geometry_column` VARCHAR(64))  begin
+  set @qwe= concat('ALTER TABLE ', t_schema, '.', t_name, ' DROP ', geometry_column); PREPARE ls from @qwe; execute ls; deallocate prepare ls; end$$
+
+DELIMITER ;
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `oik`
+-- Table structure for table `Users`
 --
 
-CREATE TABLE `oik` (
-  `idok` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `ok123`
---
-
-CREATE TABLE `ok123` (
-  `idok123` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `okaffgasfa`
---
-
-CREATE TABLE `okaffgasfa` (
-  `idok23451` int(11) NOT NULL
+CREATE TABLE `Users` (
+  `User_Name` varchar(20) DEFAULT '/',
+  `Pass` varchar(20) DEFAULT '/',
+  `User_Type` varchar(20) DEFAULT '/',
+  `User_ID` int(20) DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Indexes for dumped tables
+-- Dumping data for table `Users`
 --
 
---
--- Indexes for table `oik`
---
-ALTER TABLE `oik`
-  ADD PRIMARY KEY (`idok`);
-
---
--- Indexes for table `ok123`
---
-ALTER TABLE `ok123`
-  ADD PRIMARY KEY (`idok123`);
-
---
--- Indexes for table `okaffgasfa`
---
-ALTER TABLE `okaffgasfa`
-  ADD PRIMARY KEY (`idok23451`);
+INSERT INTO `Users` (`User_Name`, `Pass`, `User_Type`, `User_ID`) VALUES
+('George', '1234', 'STUDENT', 1),
+('JIM', '12345', 'STUDENT', 2);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
