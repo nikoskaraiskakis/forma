@@ -1,39 +1,3 @@
-<?php
-   include("connect.php");
-   session_start();
-   if($_SERVER["REQUEST_METHOD"] == "POST") {
-      // username and password sent from form 
-      
-      $myusername = mysqli_real_escape_string($db,$_POST['username']);
-      $mypassword = mysqli_real_escape_string($db,$_POST['password']); 
-      
-      $sql = "SELECT User_ID FROM Users WHERE User_Name = '$myusername' and Pass = '$mypassword'";
-      $result = mysqli_query($db,$sql);
-      $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
-      //$active = $row['active'];
-      
-      $count = mysqli_num_rows($result);
-      
-      // If result matched $myusername and $mypassword, table row must be 1 row
-		
-      if($count == 1) {
-         $_SESSION['login_user'] = $myusername;
-         $_SESSION['logged']=true;
-         
-		header("location: index.php");
-
-      }else {
-      	$_SESSION['logged']=false;
-         $error = "Your Login Name or Password is invalid";
-         echo $error;
-      }
-   }
-   
-?>
-
-
-
-
 <!DOCTYPE html>
 <html>
 	<head>
@@ -72,7 +36,7 @@
 					<b>ΣΥΝΔΕΣΗ</b>
 				</div>
 				<div class="login-subbox">
-					<form action = "" method = "post">
+					<form action = "Authentication.php" method = "post">
                   		<label>UserName  :</label><input type = "text" name = "username" class = "box"/><br /><br />
                  		<label>Password  :</label><input type = "password" name = "password" class = "box" /><br/><br />
                   		<input type = "submit" value = " Submit "/><br />
@@ -83,12 +47,21 @@
 				<div class="signup-header">
 					<b >ΕΓΓΡΑΦΗ</b>
 				</div>
-				<div class="signup-role">
-					
-				</div>
-				<div class="signup-button">
-					<button style="margin-top: 60%;width: 60%;margin-left: 5%;"><b>ΣΥΝΕΧΕΙΑ</b></button>
-				</div>
+				<form name="role-form" action="ChooseRole.php" method="post">
+					<div class="signup-role" style="outline-style: none;">
+						<u><b><h1 style="font-size: 20pt;margin-top: 100px;margin-left: 50px;">ΕΠΙΛΟΓΗ ΡΟΛΟΥ</h1></b></u>
+						<select class="signup-dropbox" name="vid" size="1" style="margin-top: 30px;margin-left: 50px;">
+						  <option  value="f">ΦΟΙΤΗΤΗΣ</option>
+						  <option  value="e">ΕΚΔΟΤΗΣ</option>
+						  <option  value="g">ΓΡΑΜΜΑΤΕΙΑ</option>
+						  <option  value="d">ΔΙΑΘΕΤΕΣ ΣΥΓΓΡΑΜΑΤΩΝ</option>
+						  <option  value="s">ΣΗΜΕΙΑ ΔΙΑΝΟΜΗΣ</option>
+						</select>
+					</div>
+					<div class="signup-button">
+						<input value = "ΣΥΝΕΧΕΙΑ" name="signupButton" id="suButton" type="submit" style="margin-top: 150px;font-size: 25pt;" /><br />
+					</div>
+				</form>
 			</div>
 		</section>
 

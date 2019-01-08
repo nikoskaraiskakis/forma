@@ -21,21 +21,21 @@
 				<img src="../images/eudoxus-logo.png" alt="LOGO" class="LOGO">
 			</a>
 				
-			<div class="topnav">
+			<div class="topnav" >
 				<input type="text" placeholder="Search.." class="search">
-				<a class='active'>
+				<a class='active' style="background-color: #FFFCB7;">
 				  <?php 
 				  if($_SESSION['logged']==true)
 				    { 
-				      echo $_SESSION['login_user'];
 				      echo '<a href="logout.php"><span>Logout</span></a></li>';
+				      echo '<a href="logout.php"><span>'.$_SESSION['login_user'].'</span></a></li>';
 				    }
 				  elseif($_SESSION['logged']==false)
 				    {
-				      echo '<a href="Login.php"><span>Login/Register</span></a></li>';
+				      echo '<a href="Login.php"><span>ΣΥΝΔΕΣΗ/ΕΓΓΡΑΦΗ</span></a></li>';
 				    }
 				  ?>
-				 </a>
+				</a>
 				<a href="Comm.php">ΕΠΙΚΟΙΝΩΝΙΑ</a>
 				<a href="Ann.php">ΑΝΑΚΟΙΝΩΣΕΙΣ</a>
 				<a href="FAQ.php">FAQ</a>
