@@ -3,12 +3,12 @@
 .background-color {
 	background-color: #FFFCB7;
 	margin-top: 20px;
-  	margin-bottom: 20px;
-  	margin-right: 20px;
-  	margin-left: 20px;
-  	border: 1px;
-  	outline: 1px;
-  	outline-offset: 15px;
+  margin-bottom: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	border: 1px;
+	outline: 1px;
+	outline-offset: 15px;
 }
 
 /*TOP SECTION*/
@@ -70,30 +70,28 @@
 
 .mid-section {
   height :500px;
+  width: 95;%;
 }
 
 .mid-section div.signup-box {
   margin-top: 5%;
   margin-left:2.5%;
-  width: 95%;
+  width: 60%;
   height: 90%;
   background-color: lightgreen;
   border-radius: 25pt;
 }
 
 .mid-section div.signup-box div.form-subbox {
-  outline-style: solid;
-  width: 50%;
+  width: 100%;
   float: left;
   height: 100%;
 }
 
-.mid-section div.signup-box div.submit-subbox {
-  outline-style: solid;
-  width: 50%;
-  float: right;
-  height: 100%;
+.mid-section div.signup-box div.form-subbox label.signup-info {
+  width: 200px;
 }
+
 
 
 

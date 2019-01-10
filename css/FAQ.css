@@ -1,14 +1,14 @@
 
 /*BACKGROUND*/
 .background-color {
-  	background-color: #FFFCB7;
-  	margin-top: 20px;
-  	margin-bottom: 20px;
-  	margin-right: 20px;
-  	margin-left: 20px;
-  	border: 1px;
-  	outline: 1px;
-  	outline-offset: 15px;
+  background-color: #FFFCB7;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	border: 1px;
+	outline: 1px;
+	outline-offset: 15px;
 }
 
 /*TOP SECTION*/
