@@ -15,5 +15,5 @@ function isNotEmpty(field) {
 }
 
 function return1(void) {
-	document.cookie = "myJavascriptVar = 'Please correct the errors in order to continue.' ";
+	return 1;
 }

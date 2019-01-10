@@ -35,7 +35,7 @@
 				<div class="form-subbox">
 					<form action = "signup.php" method = "post" onsubmit="return validateForm(this)">  
 					</form>
-                  		<label class="signup-info" style="margin-top: 100px;">ΟΝΟΜΑ ΧΡΗΣΤΗ :</label><input onChange="return1();" type = "text" name = "user" class = "box"/><br /><br />
+                  		<label class="signup-info" style="margin-top: 100px;">ΟΝΟΜΑ ΧΡΗΣΤΗ :</label><input onChange="document.cookie=return1();" type = "text" name = "user" class = "box"/><br /><br />
                   		<?php 
 						   $phpVar =  $_COOKIE['myJavascriptVar'];
 						   echo $phpVar;
