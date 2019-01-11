@@ -1,7 +1,8 @@
 function val_lname(input,input_error) {
 	var check_str = document.getElementById(input).value;
 	var flag = 0;
-	var re = /^[Α-Ωα-ωA-Za-z]+$/;
+	var re1 = /^[Α-Ωα-ω]+$/;
+	var re2 = /^[A-Za-z]+$/;
 
 	if ( check_str.length >= 1) {
 		document.getElementById(input_error).innerHTML = "";
@@ -9,6 +10,10 @@ function val_lname(input,input_error) {
 	}
 	else {
 		document.getElementById(input_error).innerHTML = " Παρακαλούμε συμπληρωστε το πεδίο Επίθετο";
+	}
+
+	if(re1.test(check_str) && re2.test(check_str) ){
+		document.getElementById(input_error).innerHTML = "Το επίθετο μπορεί να περιέχει μόνο ελληνικούς ή μόνο λατινικούς χαρακτήρες";
 	}
 
 	if (flag) {
