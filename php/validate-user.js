@@ -13,8 +13,11 @@ function val_user(input,input_error) {
 	}
 
 	if (flag) {
-		if (! re.test(check_str) ) {
-			document.getElementById(input_error).innerHTML = "Το όνομα δεν μπορεί να περιέχει αριθμούς ή σύμβολα";
+		if ( re1.test(check_str) || re2.test(check_str) ) {
+			document.getElementById(input_error).innerHTML = "Το Username πρεπει να περιέχει και γράμματα και αριθμούς";
+		}
+		else if ( check_str.length < 5 || check_str > 10 ) {
+			document.getElementById(input_error).innerHTML = "Το Username πρέπει να περιέχει το πολύ 10 και τουλάχιστον 5 χαρακτήρες";
 		}
 		else {
 			document.getElementById(input_error).innerHTML = "";

@@ -21,7 +21,7 @@
 	}
 	elseif($name_vid == 'e')
 	{
-	    header('Location: index.php');
+	    header('Location: Publisher-SignUp.php');
 	}
 	elseif($name_vid == 'g')
 	{
