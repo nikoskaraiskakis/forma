@@ -1,35 +1,4 @@
 
-<?php
-    include("connect.php");
-    if($_SERVER["REQUEST_METHOD"] == "POST") {   
-        $username=$_POST['user'];
-        $password=$_POST['pass'];
-        $password_cor=$_POST['pass_cor'];
-        $email=$_POST['em'];
-        $cname=$_POST['cname'];
-        $afm=$_POST['afm'];
-        if ($username == "" || $password == "" || $password_cor == "" || $email == "" || $cname == "" || $afm == "") {
-        	echo"<script language='javascript'>alert(5);</script>";
-        }
-        $sql1 = "SELECT * FROM Users WHERE User_Name == $username";
-        $result = mysqli_query($db,$sql1);
-        if ( !empty($result) ) {
-        	echo "Το username που συμπληρώσατε είναι ήδη πιασμένο";
-        }
-        elseif ($password != $password_cor) {
-        	echo "Ο κωδικός επαλήθευσης είναι λάθος";
-        }
-        else {
-        	$sql = "INSERT INTO Users(User_Name,Pass) VALUES ('$username','$password')";
-   			mysqli_query($db,$sql);
-        	//header("location: index.php");
-        }
-    }
-?>
-
-
-
-
 <!DOCTYPE html>
 <html>
 	<head>
@@ -39,6 +8,7 @@
 		<script type="text/javascript" src="validate-email.js"></script>
 		<script type="text/javascript" src="validate-cname.js"></script>
 		<script type="text/javascript" src="validate-afm.js"></script>
+    <script type="text/javascript" src="val_signup.js"></script>
 	</head>
 
 	<body class="background-color">
@@ -67,7 +37,7 @@
 		</section>
 		<section class ="mid-section">
 			<div class="signup-box" ">
-				<form action = "signup.php" method = "post" onsubmit="return validateForm(this)">  
+				<form method = "post" onsubmit="return re('uname_inp','alert_box')" action = "publ-signup.php" >  
 					<div class="form-subbox">
                   		<label class="signup-info" style="margin-top: 60px;"><a style="font-size: 12PT;">ΟΝΟΜΑ ΧΡΗΣΤΗ :</a></label><input style="height: 30px;" id="uname_inp" onChange="val_user('uname_inp','uname_err');" type = "text" name = "user" class = "box"/><br /><br />
 
@@ -96,6 +66,7 @@
                   	<div style=" float: right;width: 30%;height: 600px;">
                   		<input type = "submit" value = "ΕΓΓΡΑΦΗ" style="margin-top: 250px;font-size: 20pt;" /><br />
                   	</div>
+                    <div id="alert_box" style="color: red;font-size: 12pt;"></div>
                	</form>
 			</div>
 		</section>
