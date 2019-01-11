@@ -1,7 +1,8 @@
 function val_pass(input,input_error) {
 	var check_str = document.getElementById(input).value;
 	var flag = 0;
-	var re = /^[0-9A-Za-z]+$/;
+	var re = /[Α-Ωα-ω]/;
+	var symbols = /^[*?%]/;		//exclude these symbols
 
 	if ( check_str.length >= 1) {
 		document.getElementById(input_error).innerHTML = "";
@@ -12,8 +13,8 @@ function val_pass(input,input_error) {
 	}
 
 	if (flag) {
-		if (! re.test(check_str) ) {
-			document.getElementById(input_error).innerHTML = "Ο κωδικός δεν μπορεί να περιέχει σύμβολα";
+		if (re.test(check_str) || symbols.test(check_str)) {
+			document.getElementById(input_error).innerHTML = "Ο κωδικός δεν μπορεί να περιέχει ελληνικούς χαρακτήρες ή τα σύμβολα *, ?, %";
 		}
 		else {
 			document.getElementById(input_error).innerHTML = "";
