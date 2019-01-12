@@ -15,7 +15,7 @@
 
 	<body class="background-color">
 
-		<section class= "top-section"  style="outline-style: solid;">
+		<section class= "top-section" >
 
 			<a href="index.php">
 				<img src="../images/eudoxus-logo.png" alt="LOGO" class="LOGO">
@@ -49,7 +49,7 @@
 			</div>
 		</section>
 
-		<section class="mid-section" style="outline-style: solid;">
+		<section class="mid-section">
 			
 			<div class="app-box" >
 				<h1 class="box-header">
@@ -80,7 +80,7 @@
 					</h1>
 					<div class="apps">
 						<ul>
-							<button>ΔΙΑΧΕΙΡΗΣΗ ΣΥΓΓΡΑΜΜΑΤΩΝ</button>
+							<button onclick="window.location.href='checks/Publ-Check.php'">ΔΙΑΧΕΙΡΗΣΗ ΣΥΓΓΡΑΜΜΑΤΩΝ</button>
 							<button>ΥΠΗΡΕΣΙΑ ΤΑΧΥΜΕΤΑΦΟΡΑΣ</button>
 							<button>ΚΟΣΤΟΛΟΓΗΣΗ</button>
 						</ul>
