@@ -15,7 +15,7 @@ function val_afm(input,input_error) {
 		if ( ! re2.test(check_str) ) {
 			document.getElementById(input_error).innerHTML = "Το ΑΦΜ πρεπει να περιέχει μόνο αριθμούς";
 		}
-		else if ( ! check_str.length == 9 ) {
+		else if (  check_str.length != 9 ) {
 			document.getElementById(input_error).innerHTML = "Το ΑΦΜ πρέπει να περιέχει ακριβώς 9 ψηφία";
 		}
 		else {

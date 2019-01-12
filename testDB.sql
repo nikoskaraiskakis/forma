@@ -1,4 +1,14 @@
 
+CREATE TABLE `publishers` (
+  `username` varchar(100) NOT NULL,
+  `password` varchar(100) NOT NULL,
+  `afm` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `companyname` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+
 CREATE TABLE `Users` (
   `User_Name` varchar(20) DEFAULT '/',
   `Pass` varchar(20) DEFAULT '/',
@@ -7,6 +17,3 @@ CREATE TABLE `Users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 
-INSERT INTO `Users` (`User_Name`, `Pass`, `User_Type`, `User_ID`) VALUES
-('George', '1234', 'STUDENT', 1),
-('JIM', '12345', 'STUDENT', 2);
