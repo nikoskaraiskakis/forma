@@ -65,7 +65,7 @@
 					</h1>
 					<div class="apps">
 						<ul>
-							<button onclick="window.location.href='FAQ.php'">ΔΗΛΩΣΗ ΣΥΓΓΡΑΜΜΑΤΩΝ</button>
+							<button onclick="window.location.href='checks/Stud-Check.php'">ΔΗΛΩΣΗ ΣΥΓΓΡΑΜΜΑΤΩΝ</button>
 							<button>ΑΝΤΑΛΛΑΓΗ ΣΥΓΓΡΑΜΜΑΤΩΝ</button>
 						</ul>
 					</div>
