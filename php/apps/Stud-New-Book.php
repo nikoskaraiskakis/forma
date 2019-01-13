@@ -3,9 +3,9 @@
 	if(isset($_POST['search']))
 	{
 		session_start();
-		$makerValue = $_POST['sem'];
-	    $sem = $_POST['sem'];
-	    $sql = "SELECT * FROM subjectsPERsemester WHERE semester = $makerValue";
+		$makerValue = $_POST['sub'];
+	    $sub = $_POST['sub'];
+	    $sql = "SELECT * FROM BOOKS WHERE book_subject = '$makerValue'";
 	    $result = mysqli_query($db,$sql);
         $rows = array();
    		while($row = $row = mysqli_fetch_assoc($result)) {
@@ -35,7 +35,7 @@
 				<a  style="margin-right: 300px;width: 300px;background-color: lightgreen;" href="../index.php">ΑΡΧΙΚΗ</a>
 			</div>
 			<div class="topnav" >
-				<a  style="margin-top: 10px;margin-right: 300px;width: 300px;background-color: lightgreen;" href="Stud-New-Sem.php">ΕΠΙΣΤΡΟΦΗ ΣΤΗΝ ΕΠΙΛΟΓΗ ΕΞΑΜΗΝΟΥ</a>
+				<a  style="margin-top: 10px;margin-right: 300px;width: 300px;background-color: lightgreen;" href="Stud-New-Sub.php">ΕΠΙΣΤΡΟΦΗ ΣΤΗΝ ΕΠΙΛΟΓΗ ΜΑΘΗΜΑΤΟΣ</a>
 			</div>
 
 			
@@ -47,19 +47,19 @@
 		</section>
 		<section class= "mid-section" >
 			<div class="app-box">
-				<h1 >Επιλέξτε Μάθημα</h1>
-				<form method="POST" action="Stud-New-Book.php">
-					<select style="margin-left: 20px;width: 200px;margin-top: 100px;" id="sub" name="sub" onchange="document.getElementById('sel-sub').value=this.options[this.selectedIndex].value">
+				<h1 >Επιλέξτε Βιβλίο</h1>
+				<form method="POST" action="Submit-Book.php">
+					<select style="margin-left: 20px;width: 200px;margin-top: 100px;" id="book" name="book" onchange="document.getElementById('sel-book').value=this.options[this.selectedIndex].value">
 						<?php
 							foreach($rows as $product) {
 								?>
-							    <option value="<?php echo $product["subjects"];?>"><?php echo $product["subjects"];?></option>
+							    <option value="<?php echo $product["book_name"];?>"><?php echo $product["book_name"];?></option>
 							    <?php
 							}
 						?>
 					</select>
-					<input type="hidden" name="selected_text" id="sel-sub" value="" />
-					<button style="float: right;background-color: lightgrey;margin-right: 600px;margin-top: 100px ;width: 300px;height: 50px;" type="submit" name="search" value="Search"><b>ΣΥΝΕΧΕΙΑ</b></button>
+					<input type="hidden" name="selected_text" id="sel-book" value="" />
+					<button style="float: right;background-color: lightgrey;margin-right: 600px;margin-top: 100px ;width: 300px;height: 50px;" type="submit" name="search" value="Search"><b>ΔΗΛΩΣΗ</b></button>
 				</form>
 			</div>
 		</section>

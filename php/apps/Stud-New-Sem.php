@@ -1,5 +1,8 @@
 <?php
 	session_start();
+	if(empty($_SESSION['submited'])) {
+		$_SESSION['submited'] = array();
+	}
 ?>
 
 <!doctype html>
@@ -56,10 +59,12 @@
 				<div style="background-color: #FFFCB7;height: 80%;width: 60%;margin-left: 20%;text-align: center;border-radius: 25pt;overflow: auto;">
 					<ul>
 						<?php 
-							foreach($_SESSION['submited'] as $product) {
-								?>
-								<li><?php echo $product;?></li>
-								<?php
+							if(!empty($_SESSION['submited'])) {
+								foreach($_SESSION['submited'] as $product) {
+									?>
+									<li><?php echo $product;?></li>
+									<?php
+								}
 							}
 						?>
 					</ul>
