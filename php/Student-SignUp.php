@@ -38,7 +38,7 @@
 		</section>
 		<section class ="mid-section">
 			<div class="signup-box" ">
-				<form method = "post" onsubmit="return re('uname_inp','pass_inp','cpass_inp','em_inp','cname_inp','afm_inp','alert_box')" action = "publ-signup.php" >  
+				<form method = "post" onsubmit="return re('uname_inp','pass_inp','cpass_inp','em_inp','cname_inp','afm_inp','alert_box')" action = "stud-signup.php" >  
 					<div class="form-subbox">
                   		<label class="signup-info" style="margin-top: 60px;"><a style="font-size: 12PT;">ΟΝΟΜΑ ΧΡΗΣΤΗ :</a></label><input style="height: 30px;" id="uname_inp" onChange="val_user('uname_inp','uname_err');" type = "text" name = "user" class = "box"/><br /><br />
 

@@ -19,8 +19,39 @@
 			
 			<div class="top-header">
 				<h1>
-					<a style="color: black;background-color:lightgray;border-radius:5pt;font-size: 30pt;">KAΤΑΧΩΡΗΣΗ ΣΥΓΓΡΑΜΑΤΩΝ</a>
+					<a style="color: black;background-color:lightgray;border-radius:5pt;font-size: 30pt;">KAΤΑΧΩΡΗΣΗ ΣΥΓΓΡΑΜΜΑΤΩΝ</a>
 				</h1>
+			</div>
+		</section>
+		<section class= "mid-section" >
+			<div class="app-box">
+				<form method = "post" onsubmit="return re('uname_inp','pass_inp','cpass_inp','em_inp','cname_inp','afm_inp','alert_box')" action = "publ-signup.php" >  
+					<div class="form-subbox">
+
+
+                  		<label class="signup-info" style="margin-top: 60px;"><a style="font-size: 12PT;">ΤΙΤΛΟΣ ΒΙΒΛΙΟΥ :</a></label><input style="height: 30px;" id="title_inp" onChange="val_title('title_inp','title_err');" type = "text" name = "title" class = "box"/><br /><br />
+
+                  			<div id="title_err" style="color: red;font-size: 12pt;"></div>
+
+                 		<label class="signup-info" ><a style="font-size: 12pt;">ΣΥΓΓΡΑΦΕΑΣ :</a></label><input style="height: 30px;" id="pass_inp" onChange="val_pass('pass_inp','pass_err');" type = "password" name = "pass" class = "box" /><br/><br />
+
+                 			<div id="pass_err" style="color: red;font-size: 12pt;"></div>
+
+                 		<label class="signup-info" ><a style="font-size: 12pt;">ΕΠΑΛΗΘΕΥΣΗ ΚΩΔΙΚΟΥ ΠΡΟΣΒΑΣΗΣ :</a></label><input style="height: 30px;" id="cpass_inp" type = "password" name = "pass_cor" class = "box" /><br/><br />
+
+                 			<div id="cpass_err" style="color: red;font-size: 12pt;"></div>
+
+                 		<label class="signup-info" ><a style="font-size: 12pt;">EMAIL :</a></label><input style="height: 30px;" type = "email" name = "em" class = "box" id="em_inp" onChange="val_em('em_inp','em_err');"/><br/><br />
+
+                 			<div id="em_err" style="color: red;font-size: 12pt;"></div>
+
+                 	
+                  	</div>
+                  	<div style=" float: right;width: 30%;height: 600px;">
+                  		<input type = "submit" value = "ΕΓΓΡΑΦΗ" style="margin-top: 250px;font-size: 20pt;" /><br />
+                      <div id="alert_box" style="margin-right: 10px;background-color: white;color: red;font-size: 12pt;"></div>
+                  	</div>
+               	</form>
 			</div>
 		</section>
 

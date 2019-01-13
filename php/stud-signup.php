@@ -15,6 +15,8 @@
         else {
             $sql = "INSERT INTO Users(User_Name,Pass,User_Type) VALUES ('$username','$password','STUDENT')";
             mysqli_query($db,$sql);
+            $sql = "INSERT INTO students(username,password) VALUES ('$username','$password')";
+            mysqli_query($db,$sql);
             header("location: index.php");
         }
     }
