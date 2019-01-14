@@ -41,27 +41,11 @@
 					</div>
 					<div class="questions">
 						<ul>
-							<b>ASDASDASH</b>
-							<b>ASDASDASHDVJ</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
+							<b>1.Μπορεί ο φοιτητής να δηλώσει και να παραλάβει συγγράμματα για μαθήματα/ θεματικές ενότητες προηγούμενων εξαμήνων; </b>
+							<b>2.Σε περίπτωση απώλειας του προσωπικού κωδικού PIN, πως μπορεί να γίνει η ανάκτησή του;</b>
+							<b>3.Τι πρέπει να προσέχει ο φοιτητής για την ασφάλειά του?</b>
+							<b>4.Στο Εύδοξος συμμετέχουν και οι νεοεισαχθέντες φοιτητές;</b>
+
 
 						</ul>
 					</div>
@@ -72,27 +56,13 @@
 					</div>
 					<div class="questions">
 						<ul>
-							<b>ASDASDASH</b>
-							<b>ASDASDASHDVJ</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
+							<b>1.Είναι δυνατή η διάθεση Συγγραμμάτων χωρίς να γίνει χρήση της υπηρεσίας «Εύδοξος»;</b>
+							<b>2.Ποιοι έχουν δικαίωμα να καταχωρίσουν Συγγράμματα προς διάθεση;</b>
+							<b>3.Πρέπει να δηλώνονται ταυτόχρονα τα Συγγράμματα που αφορούν το χειμερινό και το εαρινό εξάμηνο;</b>
+							<b>4.Τι πρέπει να προσέξω για την ασφάλειά μου?</b>
+							<b>5.Μπορούν να διατεθούν ξενόγλωσσα Συγγράμματα μέσω του "Εύδοξος";</b>
+							<b>6.Υπάρχει περιορισμός στο πλήθος ή στο περιεχόμενο των Συγγραμμάτων που μπορούν να καταχωριστούν στην Κεντρική Βάση Δεδομένων;</b>
+
 						</ul>
 					</div>
 				</div>
@@ -102,27 +72,9 @@
 					</div>
 					<div class="questions">
 						<ul>
-							<b>ASDASDASH</b>
-							<b>ASDASDASHDVJ</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
+							<b>1.Τι πρέπει να προσέξω για την ασφάλειά μου?</b>
+							<b>2.Πως καταχωρίζονται τα μαθήματα που έχουν Θεωρητικό και Εργαστηριακό μέρος;</b>
+							<b>3.Μπορούν να διατεθούν ξενόγλωσσα Συγγράμματα μέσω του "Εύδοξος"; </b>
 						</ul>
 					</div>
 				</div>
@@ -132,27 +84,10 @@
 					</div>
 					<div class="questions">
 						<ul>
-							<b>ASDASDASH</b>
-							<b>ASDASDASHDVJ</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
+							<b>1.Πώς μπορώ να καταχωρήσω τις σημειώσεις μου για κάποιο μάθημα;</b>
+							<b>2.Μπορώ να καταχωρήσω χειρόγραφες σημειώσεις;</b>
+							<b>3.Μπορώ να διαθέσω κάποιο σύγγραμμα που έχω για παραλαβή από φοιτητή;</b>
+
 						</ul>
 					</div>
 				</div>
@@ -162,27 +97,8 @@
 					</div>
 					<div class="questions">
 						<ul>
-							<b>ASDASDASH</b>
-							<b>ASDASDASHDVJ</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
-							<b>ASDASDASHDVJASHDBJAasdjhb</b>
+							<b>1.Πώς μπορώ να καταχωρήσω την παραλαβή ενός συγγράμματος από ένα φοιτητή;</b>
+							<b>2.Δεν εμφανίζονται τα στοιχεία του φοιτητή που μου ζήτησε ένα βιβλίο που έχει δηλώσει. Τι πρέπει να κάνω;</b>
 						</ul>
 					</div>
 				</div>
