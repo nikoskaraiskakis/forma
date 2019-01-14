@@ -73,7 +73,7 @@
 				<div class="sub-box">
 					<h1 class="subbox-header">
 						<button>
-							<a href="index." style="color: black">
+							<a href="Publisher-info.php" style="color: black">
 								ΕΚΔΟΤΕΣ
 							</a>
 						</button>
