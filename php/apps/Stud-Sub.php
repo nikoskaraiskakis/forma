@@ -1,3 +1,17 @@
+<?php session_start(); 
+
+	include("../connect.php");
+	$username = $_SESSION['login_user'];
+	$sql = "SELECT * FROM submissions WHERE username LIKE '$username'";
+	$result = mysqli_query($db,$sql);
+	$row = mysqli_fetch_array($result,MYSQLI_ASSOC);
+	$count = mysqli_num_rows($result);
+	if( $count == 0 ){
+		header("location: Stud-Sub.php");
+	}
+?>
+
+
 <!doctype html>
 <html lang="el">
 	<head>
@@ -27,18 +41,28 @@
 			
 			<div class="app-box" >
 				<div class="sub-box" style="float: left;">
-					<div style="width: 100%;height: 50%;">
+					<div style="width: 100%;height: 33%;">
 						<button onclick="window.location.href='Stud-New-Sem.php'" class="subbox-button" >ΝΕΑ ΔΗΛΩΣΗ</button>
+					</div>
+					<div style="width: 100%;height: 33%;">
+						<button style="font-size: 20pt;" onclick="window.location.href='Change-New-Sem.php'" class="subbox-button" >ΤΡΟΠΟΠΟΙΗΣΗ ΤΡΕΧΟΥΣΑΣ ΔΗΛΩΣΗΣ</button>
+					</div>
+					<div style="width: 100%;height: 33%;">
+						<button style="font-size: 20pt;" onclick="window.location.href='Previous-Subs.php'" class="subbox-button" >ΠΡΟΗΓΟΥΜΕΝΕΣ ΔΗΛΩΣΕΙΣ</button>
 					</div>
 				</div>
 				<div class="sub-box" style="float: right;">
-					<h1 class="subbox-header" >ΠΛΗΡΟΦΟΡΙΕΣ</h1>
-					<div style="width: 100%;height: 45%;outline-style: solid;">
-						
-					</div>
-					<div style="width: 100%;height: 45%;outline-style: solid;">
-						
-					</div>
+						<?php 
+						$username = $_SESSION['login_user'];
+						$sql = "SELECT * FROM submissions WHERE username LIKE '$username' ORDER BY submission_id DESC";
+						$result = mysqli_query($db,$sql);
+						$row = mysqli_fetch_array($result,MYSQLI_ASSOC);
+						$count = mysqli_num_rows($result);
+						if ( $count != 0 ) { 
+							?><h3 style="margin-top: 100px;">To pin τρέχουσας δήλωσης είναι : <?php
+							echo $row["pin"];
+						}
+					?></h3>
 
 				</div>
 			</div>

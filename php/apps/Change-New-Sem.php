@@ -29,14 +29,14 @@
 			
 			<div class="top-header">
 				<h1>
-					<a style="color: black;background-color:lightgray;border-radius:5pt;font-size: 30pt;">ΝΕΑ ΔΗΛΩΣΗ</a>
+					<a style="color: black;background-color:lightgray;border-radius:5pt;font-size: 30pt;">ΤΡΟΠΟΠΟΙΗΣΗ ΔΗΛΩΣΗΣ</a>
 				</h1>
 			</div>
 		</section>
 		<section class= "mid-section" style="width: 70%;float: left;">
 			<div class="app-box">
 				<h1>Επιλέξτε Εξάμηνο</h1>
-				<form method="POST" action="Stud-New-Sub.php">
+				<form method="POST" action="Change-New-Sub.php">
 					<select style="margin-left: 20px;width: 300px;margin-top: 100px;" id="sem" name="sem" onchange="document.getElementById('sel-sem').value=this.options[this.selectedIndex].value">
 						<option value="1">1ο Εξάμηνο</option>
 						<option value="2">2ο Εξάμηνο</option>
@@ -53,7 +53,7 @@
 			</div>
 		</section>
 
-		<form method="POST" action="Final-Submit.php">
+		<form method="POST" action="Final-Change.php">
 			<div style="float: right;width: 30%;margin-top: 70px;background-color: lightgreen;height: 350px;">
 				<h1 style="text-align: center;background-color: lightgrey;border-radius: 25pt;"><b>ΕΠΙΛΕΓΜΕΝΑ</b></h1>
 				<div style="background-color: #FFFCB7;height: 80%;width: 60%;margin-left: 20%;text-align: center;border-radius: 25pt;overflow: auto;">

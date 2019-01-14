@@ -4,7 +4,6 @@
 	{
 		session_start();
 		$makerValue = $_POST['book'];
-
 		$book = $makerValue;
 		$sql = "SELECT * FROM BOOKS WHERE book_name LIKE '$book'";
 		$result = mysqli_query($db,$sql);
@@ -26,7 +25,14 @@
 			}
 		}
 		$_SESSION['submited'] = $ar;
+
+
+
+
+
+
+
 		array_push($_SESSION['submited'],$makerValue);
-		header("location: Stud-New-Sem.php");
+		header("location: Change-New-Sem.php");
 	}
 ?>

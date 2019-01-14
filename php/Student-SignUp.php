@@ -40,7 +40,7 @@
 		</section>
 		<section class ="mid-section">
 			<div class="signup-box" ">
-				<form method = "post" onsubmit="return re('uname_inp','pass_inp','cpass_inp','em_inp','cname_inp','afm_inp','alert_box')" action = "stud-signup.php" >  
+				<form method = "post" onsubmit="return re2('uname_inp','pass_inp','cpass_inp','fname_inp','lname_inp','em_inp','am_inp','uni_inp','alert_box')" action = "stud-signup.php" >  
 					<div class="form-subbox">
                   		<label class="signup-info" style="margin-top: 60px;"><a style="font-size: 12PT;">ΟΝΟΜΑ ΧΡΗΣΤΗ :</a></label><input style="height: 30px;" id="uname_inp" onChange="val_user('uname_inp','uname_err');" type = "text" name = "user" class = "box"/><br /><br />
 
@@ -70,7 +70,7 @@
 
                  			<div id="am_err" style="color: red;font-size: 12pt;"></div>
 
-                 		<label class="signup-info" ><a style="font-size: 12pt;">ΕΚΠΕΔΕΥΤΙΚΟ ΙΔΡΥΜΑ :</a></label><input style="height: 30px;" type = "text" name = "am" class = "box" id="am_inp" onChange="val_am('am_inp','am_err');"/><br/><br />
+                 		<label class="signup-info" ><a style="font-size: 12pt;">ΕΚΠΕΔΕΥΤΙΚΟ ΙΔΡΥΜΑ :</a></label><input style="height: 30px;" type = "text" name = "uni" class = "box" id="uni_inp" onChange="val_am('am_inp','am_err');"/><br/><br />
 
                   	</div>
                   	<div style=" float: right;width: 30%;height: 600px;">

@@ -35,20 +35,20 @@
 				<a  style="margin-right: 300px;width: 300px;background-color: lightgreen;" href="../index.php">ΑΡΧΙΚΗ</a>
 			</div>
 			<div class="topnav" >
-				<a  style="margin-top: 10px;margin-right: 300px;width: 300px;background-color: lightgreen;" href="Stud-New-Sem.php">ΕΠΙΣΤΡΟΦΗ ΣΤΗΝ ΕΠΙΛΟΓΗ ΕΞΑΜΗΝΟΥ</a>
+				<a  style="margin-top: 10px;margin-right: 300px;width: 300px;background-color: lightgreen;" href="Change-New-Sem.php">ΕΠΙΣΤΡΟΦΗ ΣΤΗΝ ΕΠΙΛΟΓΗ ΕΞΑΜΗΝΟΥ</a>
 			</div>
 
 			
 			<div class="top-header">
 				<h1>
-					<a style="color: black;background-color:lightgray;border-radius:5pt;font-size: 30pt;">ΝΕΑ ΔΗΛΩΣΗ</a>
+					<a style="color: black;background-color:lightgray;border-radius:5pt;font-size: 30pt;">ΤΡΟΠΟΠΟΙΗΣΗ ΔΗΛΩΣΗΣ</a>
 				</h1>
 			</div>
 		</section>
 		<section class= "mid-section" >
 			<div class="app-box">
 				<h1 >Επιλέξτε Βιβλίο</h1>
-				<form method="POST" action="Submit-Book.php">
+				<form method="POST" action="Change-Book.php">
 					<select style="margin-left: 20px;width: 200px;margin-top: 100px;" id="book" name="book" onchange="document.getElementById('sel-book').value=this.options[this.selectedIndex].value">
 						<?php
 							foreach($rows as $product) {

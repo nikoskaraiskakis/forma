@@ -35,13 +35,6 @@
 					</div>
 				</div>
 				<div class="sub-box" style="float: right;">
-					<h1 class="subbox-header" >ΠΛΗΡΟΦΟΡΙΕΣ</h1>
-					<div style="width: 100%;height: 45%;outline-style: solid;">
-						
-					</div>
-					<div style="width: 100%;height: 45%;outline-style: solid;">
-						
-					</div>
 
 				</div>
 			</div>
