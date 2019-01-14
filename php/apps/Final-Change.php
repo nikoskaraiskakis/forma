@@ -4,6 +4,7 @@
 		header("location: Change-New-Sem.php");
 	}
 	include("../connect.php");
+	?><script type="text/javascript">alert("Η ΤΡΟΠΟΠΟΙΗΣΗ ΟΛΟΚΛΗΡΩΘΗΚΕ ΜΕ ΕΠΙΤΥΧΙΑ");</script><?php
 	$username = $_SESSION['login_user'];
 	$sql = "SELECT * FROM submissions WHERE username LIKE '$username' ORDER BY submission_id DESC";
 	$result = mysqli_query($db,$sql);

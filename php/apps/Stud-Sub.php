@@ -1,6 +1,7 @@
 <?php session_start(); 
 
 	include("../connect.php");
+	
 	$username = $_SESSION['login_user'];
 	$sql = "SELECT * FROM submissions WHERE username LIKE '$username'";
 	$result = mysqli_query($db,$sql);
@@ -48,7 +49,7 @@
 						<button style="font-size: 20pt;" onclick="window.location.href='Change-New-Sem.php'" class="subbox-button" >ΤΡΟΠΟΠΟΙΗΣΗ ΤΡΕΧΟΥΣΑΣ ΔΗΛΩΣΗΣ</button>
 					</div>
 					<div style="width: 100%;height: 33%;">
-						<button style="font-size: 20pt;" onclick="window.location.href='Previous-Subs.php'" class="subbox-button" >ΠΡΟΗΓΟΥΜΕΝΕΣ ΔΗΛΩΣΕΙΣ</button>
+						<button style="font-size: 20pt;" onclick="window.location.href='Previous.php'" class="subbox-button" >ΠΡΟΗΓΟΥΜΕΝΕΣ ΔΗΛΩΣΕΙΣ</button>
 					</div>
 				</div>
 				<div class="sub-box" style="float: right;">

@@ -4,10 +4,11 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		<link rel="stylesheet" href="../../css/Publ-Man.css">
 
-		<script type="text/javascript" src="../JAVAscripts/validate-title.js"></script>
-		<script type="text/javascript" src="../JAVAscripts/validate-writer.js"></script>
-		<script type="text/javascript" src="../JAVAscripts/validate-isbn.js"></script>
-	    <script type="text/javascript" src="../JAVAscripts/validate-ekdoseis.js"></script>
+		<script type="text/javascript" src="../../JAVAscripts/validate-title.js"></script>
+		<script type="text/javascript" src="../../JAVAscripts/validate-writer.js"></script>
+		<script type="text/javascript" src="../../JAVAscripts/validate-isbn.js"></script>
+	    <script type="text/javascript" src="../../JAVAscripts/validate-ekdoseis.js"></script>
+	    <script type="text/javascript" src="../../JAVAscripts/val-signup.js"></script>
 	</head>
 
 	<body class="background-color">
@@ -28,18 +29,17 @@
 				</h1>
 			</div>
 		</section>
-		<section class= "mid-section" >
+		<section class= "mid-section " style="height: 700px;">
 			<div class="app-box">
-				<form method = "post" onsubmit="return re('uname_inp','pass_inp','cpass_inp','em_inp','cname_inp','afm_inp','alert_box')" action = "publ-signup.php" >  
-					<div class="form-subbox">
-
-
+				<form style="width: 100%;" method = "post" onsubmit="return re3('title_inp','writer_inp','isbn_inp','ekdoseis_inp','alert_box')" action = "insert-book.php" >  
+					<div style="width: 40%;" class="form-subbox">
+						
                   		<label class="signup-info" style="margin-top: 60px;"><a style="font-size: 12PT;">ΤΙΤΛΟΣ ΒΙΒΛΙΟΥ :</a></label><input style="height: 30px;" id="title_inp" onChange="val_title('title_inp','title_err');" type = "text" name = "title" class = "box"/><br /><br />
 
                   			<div id="title_err" style="color: red;font-size: 12pt;"></div>
 
 
-                  		<label class="signup-info" style="margin-top: 60px;"><a style="font-size: 12PT;">ΣΥΓΓΡΑΦΕΑΣ :</a></label><input style="height: 30px;" id="title_inp" onChange="val_writer('writer_inp','writer_err');" type = "text" name = "writer" class = "box"/><br /><br />
+                  		<label class="signup-info" style="margin-top: 60px;"><a style="font-size: 12PT;">ΣΥΓΓΡΑΦΕΑΣ :</a></label><input style="height: 30px;" id="writer_inp" onChange="val_writer('writer_inp','writer_err');" type = "text" name = "writer" class = "box"/><br /><br />
 
                   			<div id="writer_err" style="color: red;font-size: 12pt;"></div>
 
@@ -51,13 +51,16 @@
 
                   			<div id="ekdoseis_err" style="color: red;font-size: 12pt;"></div>
 
-                 	
-                  	</div>
-                  	<div style=" float: right;width: 30%;height: 600px;">
-                  		<input type = "submit" value = "ΚΑΤΑΧΩΡΗΣΗ" style="margin-top: 250px;font-size: 20pt;" /><br />
-                      <div id="alert_box" style="margin-right: 10px;background-color: white;color: red;font-size: 12pt;"></div>
-                  	</div>
+                  			<input style="float: right;font-size: 15pt;" type = "submit" value = "ΚΑΤΑΧΩΡΗΣΗ" /><br /><br />
+                  			
+                    	<div id="alert_box" style="margin-bottom: 50px;width: 50px;margin-right: 10px;background-color: white;color: red;font-size: 12pt;"></div>
+
+					</div>
+
+					
+                  		
                	</form>
+               	               	
 			</div>
 		</section>
 

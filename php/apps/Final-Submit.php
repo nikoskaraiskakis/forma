@@ -4,6 +4,7 @@
 		header("location: Stud-New-Sem.php");
 	}
 	include("../connect.php");
+	?><script type="text/javascript">alert("Η ΔΗΛΩΣΗ ΟΛΟΚΛΗΡΩΘΗΚΕ ΜΕ ΕΠΙΤΥΧΙΑ");</script><?php
 	$username = $_SESSION['login_user'];
 	$sql = "SELECT * FROM submissions WHERE username LIKE '$username' ORDER BY submission_id DESC";
 	$result = mysqli_query($db,$sql);
@@ -27,6 +28,7 @@
 			mysqli_query($db,$sql);
 		}
 	}
+	$_SESSION['flag'] = "success";
 ?>
 
 <!doctype html>

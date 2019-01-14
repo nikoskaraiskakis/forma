@@ -30,9 +30,6 @@
 					<div style="width: 100%;height: 50%;">
 						<button onclick="window.location.href='Publ-submit.php'" class="subbox-button" >ΚΑΤΑΧΩΡΗΣΗ ΣΥΓΓΡΑΜΜΑΤΩΝ</button>
 					</div>
-					<div style="width: 100%;height: 50%;">
-						<button onclick="window.location.href='FAQ.php'" class="subbox-button" >ΛΙΣΤΑ ΚΑΤΑΧΩΡΗΜΕΝΩΝ</button>
-					</div>
 				</div>
 				<div class="sub-box" style="float: right;">
 

@@ -4,8 +4,8 @@
 	if(empty($_SESSION['logged'])){
 		$_SESSION['logged']=false;
 	}
-
 ?>
+
 <!doctype html>
 <html lang="el">
 	<head>

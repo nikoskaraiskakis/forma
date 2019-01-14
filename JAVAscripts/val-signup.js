@@ -168,3 +168,39 @@ function re2(uinp,pinp,cpinp,fnameinp,lnameinp,eminp,aminp,uniinp,inp){
 		return true;
 	}
 }
+
+function re3(tinp,winp,iinp,pinp,inp){
+	var finflag = 0;
+	
+	var title = document.getElementById(tinp).value;
+	var writer = document.getElementById(winp).value;
+	var isbn = document.getElementById(iinp).value;
+	var publisher = document.getElementById(pinp).value;
+
+	if ( title.length == 0) {
+		finflag = 1;
+	}
+
+	if ( writer.length == 0) {
+		finflag = 1;
+	}
+
+	if ( isbn.length == 0) {
+		finflag = 1;
+	}
+
+	if ( publisher.length == 0) {
+		finflag = 1;
+	}
+
+	//CHECK IF WE HAD ANY ERRORS
+	if ( finflag == 1 ) {
+		document.getElementById(inp).innerHTML = "Παρακαλώ συμπληρώστε σωστά τα πεδία";
+		return false;
+	}
+	else{
+		document.getElementById(inp).innerHTML = "Παρακαλώ συμπληρώστε σωστά τα πεδία";
+		return true;
+	}
+
+}
