@@ -37,7 +37,7 @@
 				  ?>
 				</a>
 				<a href="Comm.php">ΕΠΙΚΟΙΝΩΝΙΑ</a>
-				<a href="ANN.php">ΑΝΑΚΟΙΝΩΣΕΙΣ</a>
+				<a href="Ann.php">ΑΝΑΚΟΙΝΩΣΕΙΣ</a>
 				<a href="FAQ.php">FAQ</a>
 				<a class="active" href="index.php">ΑΡΧΙΚΗ</a>
 			</div>
