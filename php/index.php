@@ -58,7 +58,7 @@
 				<div class="sub-box" style="border-left-color: black">
 					<h1 class="subbox-header">
 						<button>
-							<a href="index.php" style="color: black">
+							<a href="Student-info.php" style="color: black">
 								ΦΟΙΤΗΤΕΣ
 							</a>
 						</button>
